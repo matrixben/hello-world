@@ -10,4 +10,10 @@ public class HelloJenkinsSpec {
         HelloJenkins hello = new HelloJenkins();
         assertEquals("Hello jenkins.", hello.play());
     }
+
+    @Test
+    public void whenCallPlayWrongThenAssertWrong(){
+        HelloJenkins hello2 = new HelloJenkins();
+        assertEquals(false, hello2.playWrong());
+    }
 }

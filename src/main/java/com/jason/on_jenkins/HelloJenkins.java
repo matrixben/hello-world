@@ -4,4 +4,8 @@ public class HelloJenkins {
     public String play() {
         return "Hello jenkins.";
     }
+
+    public boolean playWrong() {
+        return true;
+    }
 }
